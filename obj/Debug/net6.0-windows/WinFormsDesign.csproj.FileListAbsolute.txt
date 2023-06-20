@@ -1,0 +1,63 @@
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.exe
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.deps.json
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.runtimeconfig.json
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.dll
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.pdb
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.AssemblyReference.cache
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.Form1.resources
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.Properties.Resources.resources
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.GenerateResource.cache
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.AssemblyInfoInputs.cache
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.AssemblyInfo.cs
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.CoreCompileInputs.cache
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.dll
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\refint\WinFormsDesign.dll
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.pdb
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.genruntimeconfig.cache
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\ref\WinFormsDesign.dll
+C:\Users\Raka Daneshwara\source\repos\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.semuaulasan1.resources
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.AssemblyReference.cache
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.Form1.resources
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.Properties.Resources.resources
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.semuaulasan1.resources
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.GenerateResource.cache
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.AssemblyInfoInputs.cache
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.AssemblyInfo.cs
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.CoreCompileInputs.cache
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.dll
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\refint\WinFormsDesign.dll
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.pdb
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.exe
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.deps.json
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.runtimeconfig.json
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.dll
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.pdb
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.genruntimeconfig.cache
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\ref\WinFormsDesign.dll
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.Form2.resources
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\avese\source\repos\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.CopyComplete
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.exe
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.deps.json
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.runtimeconfig.json
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.dll
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\WinFormsDesign.pdb
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\bin\Debug\net6.0-windows\Npgsql.dll
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.AssemblyReference.cache
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.Form1.resources
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.Properties.Resources.resources
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.GenerateResource.cache
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.GeneratedMSBuildEditorConfig.editorconfig
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.AssemblyInfoInputs.cache
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.AssemblyInfo.cs
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.CoreCompileInputs.cache
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.csproj.CopyComplete
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.dll
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\refint\WinFormsDesign.dll
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.pdb
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\WinFormsDesign.genruntimeconfig.cache
+C:\KULIAH\Modul & Tugas\PBO 1\Feedback Feature\WinFormsDesign\obj\Debug\net6.0-windows\ref\WinFormsDesign.dll

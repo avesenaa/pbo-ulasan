@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rDwiA0kHQKTxjuhj68kojFrp8g0ogVZlXiGq0KZizTjR1geCTRn4lrFCYZctVoyYBw+QqkUdqLc5O+53IdvQ7g==",
+  "success": true,
+  "projectFilePath": "C:\\KULIAH\\Modul & Tugas\\PBO 1\\Feedback Feature\\WinFormsDesign\\WinFormsDesign.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\avese\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\avese\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\avese\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
