@@ -29,408 +29,412 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            panel1 = new Panel();
-            pictureBox3 = new PictureBox();
-            pictureBox1 = new PictureBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            pictureBox2 = new PictureBox();
-            panel3 = new Panel();
-            panel5 = new Panel();
-            label20 = new Label();
-            label22 = new Label();
-            label23 = new Label();
-            panel2 = new Panel();
-            textBox1 = new TextBox();
-            panel6 = new Panel();
-            button1 = new Button();
-            label30 = new Label();
-            radioButton5 = new RadioButton();
-            radioButton4 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
+            pnlgambar1 = new Panel();
+            pcboxnext = new PictureBox();
+            pcboxprevious = new PictureBox();
+            lbljudululasan = new Label();
+            lblsubjudululasan = new Label();
+            lbljudululasanpengunjung = new Label();
+            pcboxpemisahkanankiri = new PictureBox();
+            pnlpemisahjudululasanpengunjungdenganisiulasan = new Panel();
+            pnlpemisahjudululasandenganrating = new Panel();
+            lblrating = new Label();
+            lbldari = new Label();
+            lblsumrating = new Label();
+            pnlgambar2 = new Panel();
+            tboxulasan = new TextBox();
+            pnlbackgroundpilihrating = new Panel();
+            btnkirimulasan = new Button();
+            lblpilihrating = new Label();
+            pilihrating1 = new RadioButton();
+            pilihrating2 = new RadioButton();
+            pilihrating3 = new RadioButton();
+            pilihrating4 = new RadioButton();
+            pilihrating5 = new RadioButton();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            panel15 = new Panel();
+            flp = new FlowLayoutPanel();
+            pnlulasan1 = new Panel();
             tanggal1 = new Label();
             rating1 = new Label();
             user1 = new Label();
             isi_ulasan1 = new Label();
             bgulasan1 = new PictureBox();
-            panel12 = new Panel();
+            pnlulasan2 = new Panel();
             tanggal2 = new Label();
             rating2 = new Label();
             user2 = new Label();
             isi_ulasan2 = new Label();
             bgulasan2 = new PictureBox();
-            panel13 = new Panel();
+            pnlulasan3 = new Panel();
             tanggal3 = new Label();
             rating3 = new Label();
             user3 = new Label();
             isi_ulasan3 = new Label();
             bgulasan3 = new PictureBox();
-            panel4 = new Panel();
+            pnlulasan4 = new Panel();
             tanggal4 = new Label();
             rating4 = new Label();
             user4 = new Label();
             isi_ulasan4 = new Label();
             bgulasan4 = new PictureBox();
-            panel7 = new Panel();
+            pnlulasan5 = new Panel();
             tanggal5 = new Label();
             rating5 = new Label();
             user5 = new Label();
             isi_ulasan5 = new Label();
             bgulasan5 = new PictureBox();
-            panel8 = new Panel();
+            pnlulasan6 = new Panel();
             tanggal6 = new Label();
             rating6 = new Label();
             user6 = new Label();
             isi_ulasan6 = new Label();
             bgulasan6 = new PictureBox();
-            panel9 = new Panel();
+            pnlulasan7 = new Panel();
             tanggal7 = new Label();
             rating7 = new Label();
             user7 = new Label();
             isi_ulasan7 = new Label();
             bgulasan7 = new PictureBox();
-            label4 = new Label();
-            pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            filter = new ComboBox();
-            btnFilter = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panel6.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
-            panel15.SuspendLayout();
+            lblavgrating = new Label();
+            pcboxbackgroundinputulasan = new PictureBox();
+            pcboxpensil = new PictureBox();
+            cboxfilter = new ComboBox();
+            btnfiltersearch = new Button();
+            pbox = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pcboxnext).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxprevious).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxpemisahkanankiri).BeginInit();
+            pnlbackgroundpilihrating.SuspendLayout();
+            flp.SuspendLayout();
+            pnlulasan1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan1).BeginInit();
-            panel12.SuspendLayout();
+            pnlulasan2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan2).BeginInit();
-            panel13.SuspendLayout();
+            pnlulasan3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan3).BeginInit();
-            panel4.SuspendLayout();
+            pnlulasan4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan4).BeginInit();
-            panel7.SuspendLayout();
+            pnlulasan5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan5).BeginInit();
-            panel8.SuspendLayout();
+            pnlulasan6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan6).BeginInit();
-            panel9.SuspendLayout();
+            pnlulasan7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxbackgroundinputulasan).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxpensil).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbox).BeginInit();
             SuspendLayout();
             // 
-            // panel1
+            // pnlgambar1
             // 
-            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
-            panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Location = new Point(75, 102);
-            panel1.Margin = new Padding(3, 2, 3, 2);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(762, 432);
-            panel1.TabIndex = 0;
+            pnlgambar1.BackgroundImage = (Image)resources.GetObject("pnlgambar1.BackgroundImage");
+            pnlgambar1.BackgroundImageLayout = ImageLayout.Stretch;
+            pnlgambar1.Location = new Point(75, 102);
+            pnlgambar1.Margin = new Padding(3, 2, 3, 2);
+            pnlgambar1.Name = "pnlgambar1";
+            pnlgambar1.Size = new Size(762, 432);
+            pnlgambar1.TabIndex = 0;
             // 
-            // pictureBox3
+            // pcboxnext
             // 
-            pictureBox3.BackColor = Color.Transparent;
-            pictureBox3.Cursor = Cursors.Hand;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(153, 563);
-            pictureBox3.Margin = new Padding(3, 2, 3, 2);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(60, 58);
-            pictureBox3.TabIndex = 5;
-            pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
+            pcboxnext.BackColor = Color.Transparent;
+            pcboxnext.BackgroundImageLayout = ImageLayout.Stretch;
+            pcboxnext.Cursor = Cursors.Hand;
+            pcboxnext.Image = (Image)resources.GetObject("pcboxnext.Image");
+            pcboxnext.Location = new Point(153, 563);
+            pcboxnext.Margin = new Padding(3, 2, 3, 2);
+            pcboxnext.Name = "pcboxnext";
+            pcboxnext.Size = new Size(60, 58);
+            pcboxnext.TabIndex = 5;
+            pcboxnext.TabStop = false;
+            pcboxnext.Click += pcboxnext_Click;
             // 
-            // pictureBox1
+            // pcboxprevious
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Cursor = Cursors.Hand;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(75, 563);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(60, 58);
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            pcboxprevious.BackColor = Color.Transparent;
+            pcboxprevious.BackgroundImageLayout = ImageLayout.Stretch;
+            pcboxprevious.Cursor = Cursors.Hand;
+            pcboxprevious.Image = (Image)resources.GetObject("pcboxprevious.Image");
+            pcboxprevious.Location = new Point(75, 563);
+            pcboxprevious.Margin = new Padding(3, 2, 3, 2);
+            pcboxprevious.Name = "pcboxprevious";
+            pcboxprevious.Size = new Size(60, 58);
+            pcboxprevious.TabIndex = 6;
+            pcboxprevious.TabStop = false;
+            pcboxprevious.Click += pcboxprevious_Click;
             // 
-            // label1
+            // lbljudululasan
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Montserrat SemiBold", 25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.RoyalBlue;
-            label1.Location = new Point(68, 628);
-            label1.Name = "label1";
-            label1.Size = new Size(405, 47);
-            label1.TabIndex = 7;
-            label1.Text = "WISATA REMBANGAN";
+            lbljudululasan.AutoSize = true;
+            lbljudululasan.BackColor = Color.Transparent;
+            lbljudululasan.Font = new Font("Montserrat SemiBold", 25F, FontStyle.Bold, GraphicsUnit.Point);
+            lbljudululasan.ForeColor = Color.RoyalBlue;
+            lbljudululasan.Location = new Point(68, 628);
+            lbljudululasan.Name = "lbljudululasan";
+            lbljudululasan.Size = new Size(405, 47);
+            lbljudululasan.TabIndex = 7;
+            lbljudululasan.Text = "WISATA REMBANGAN";
             // 
-            // label2
+            // lblsubjudululasan
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Montserrat", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(75, 695);
-            label2.Name = "label2";
-            label2.Size = new Size(699, 25);
-            label2.TabIndex = 8;
-            label2.Text = "Darungan, Kemuning Lor, Kec. Arjasa, Kabupaten Jember, Jawa Timur 68191";
+            lblsubjudululasan.AutoSize = true;
+            lblsubjudululasan.BackColor = Color.Transparent;
+            lblsubjudululasan.Font = new Font("Montserrat", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            lblsubjudululasan.Location = new Point(75, 695);
+            lblsubjudululasan.Name = "lblsubjudululasan";
+            lblsubjudululasan.Size = new Size(699, 25);
+            lblsubjudululasan.TabIndex = 8;
+            lblsubjudululasan.Text = "Darungan, Kemuning Lor, Kec. Arjasa, Kabupaten Jember, Jawa Timur 68191";
             // 
-            // label3
+            // lbljudululasanpengunjung
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Montserrat", 20F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.RoyalBlue;
-            label3.Location = new Point(1029, 112);
-            label3.Name = "label3";
-            label3.Size = new Size(299, 37);
-            label3.TabIndex = 10;
-            label3.Text = "Ulasan Pengunjung";
-            label3.TextAlign = ContentAlignment.TopCenter;
+            lbljudululasanpengunjung.AutoSize = true;
+            lbljudululasanpengunjung.BackColor = Color.Transparent;
+            lbljudululasanpengunjung.Font = new Font("Montserrat", 20F, FontStyle.Bold, GraphicsUnit.Point);
+            lbljudululasanpengunjung.ForeColor = Color.RoyalBlue;
+            lbljudululasanpengunjung.Location = new Point(1029, 112);
+            lbljudululasanpengunjung.Name = "lbljudululasanpengunjung";
+            lbljudululasanpengunjung.Size = new Size(299, 37);
+            lbljudululasanpengunjung.TabIndex = 10;
+            lbljudululasanpengunjung.Text = "Ulasan Pengunjung";
+            lbljudululasanpengunjung.TextAlign = ContentAlignment.TopCenter;
             // 
-            // pictureBox2
+            // pcboxpemisahkanankiri
             // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(863, 86);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(68, 878);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 9;
-            pictureBox2.TabStop = false;
+            pcboxpemisahkanankiri.BackColor = Color.Transparent;
+            pcboxpemisahkanankiri.Image = (Image)resources.GetObject("pcboxpemisahkanankiri.Image");
+            pcboxpemisahkanankiri.Location = new Point(863, 86);
+            pcboxpemisahkanankiri.Margin = new Padding(3, 2, 3, 2);
+            pcboxpemisahkanankiri.Name = "pcboxpemisahkanankiri";
+            pcboxpemisahkanankiri.Size = new Size(68, 878);
+            pcboxpemisahkanankiri.SizeMode = PictureBoxSizeMode.Zoom;
+            pcboxpemisahkanankiri.TabIndex = 9;
+            pcboxpemisahkanankiri.TabStop = false;
             // 
-            // panel3
+            // pnlpemisahjudululasanpengunjungdenganisiulasan
             // 
-            panel3.BackColor = SystemColors.ScrollBar;
-            panel3.Location = new Point(1037, 163);
-            panel3.Margin = new Padding(3, 2, 3, 2);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(760, 1);
-            panel3.TabIndex = 33;
+            pnlpemisahjudululasanpengunjungdenganisiulasan.BackColor = SystemColors.ScrollBar;
+            pnlpemisahjudululasanpengunjungdenganisiulasan.Location = new Point(1037, 163);
+            pnlpemisahjudululasanpengunjungdenganisiulasan.Margin = new Padding(3, 2, 3, 2);
+            pnlpemisahjudululasanpengunjungdenganisiulasan.Name = "pnlpemisahjudululasanpengunjungdenganisiulasan";
+            pnlpemisahjudululasanpengunjungdenganisiulasan.Size = new Size(760, 1);
+            pnlpemisahjudululasanpengunjungdenganisiulasan.TabIndex = 33;
             // 
-            // panel5
+            // pnlpemisahjudululasandenganrating
             // 
-            panel5.BackColor = SystemColors.ActiveCaption;
-            panel5.Location = new Point(104, 759);
-            panel5.Margin = new Padding(3, 2, 3, 2);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(690, 3);
-            panel5.TabIndex = 41;
+            pnlpemisahjudululasandenganrating.BackColor = SystemColors.ActiveCaption;
+            pnlpemisahjudululasandenganrating.Location = new Point(104, 759);
+            pnlpemisahjudululasandenganrating.Margin = new Padding(3, 2, 3, 2);
+            pnlpemisahjudululasandenganrating.Name = "pnlpemisahjudululasandenganrating";
+            pnlpemisahjudululasandenganrating.Size = new Size(690, 3);
+            pnlpemisahjudululasandenganrating.TabIndex = 41;
             // 
-            // label20
+            // lblrating
             // 
-            label20.AutoSize = true;
-            label20.BackColor = Color.Transparent;
-            label20.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            label20.ForeColor = SystemColors.ActiveCaptionText;
-            label20.Location = new Point(78, 782);
-            label20.MaximumSize = new Size(0, 40);
-            label20.Name = "label20";
-            label20.Size = new Size(125, 40);
-            label20.TabIndex = 43;
-            label20.Text = "Rating \r\n\r\n";
+            lblrating.AutoSize = true;
+            lblrating.BackColor = Color.Transparent;
+            lblrating.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            lblrating.ForeColor = SystemColors.ActiveCaptionText;
+            lblrating.Location = new Point(78, 782);
+            lblrating.MaximumSize = new Size(0, 40);
+            lblrating.Name = "lblrating";
+            lblrating.Size = new Size(125, 40);
+            lblrating.TabIndex = 43;
+            lblrating.Text = "Rating \r\n\r\n";
             // 
-            // label22
+            // lbldari
             // 
-            label22.AutoSize = true;
-            label22.BackColor = Color.Transparent;
-            label22.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label22.ForeColor = SystemColors.ActiveCaptionText;
-            label22.Location = new Point(86, 905);
-            label22.Name = "label22";
-            label22.Size = new Size(45, 24);
-            label22.TabIndex = 45;
-            label22.Text = "dari";
+            lbldari.AutoSize = true;
+            lbldari.BackColor = Color.Transparent;
+            lbldari.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            lbldari.ForeColor = SystemColors.ActiveCaptionText;
+            lbldari.Location = new Point(86, 905);
+            lbldari.Name = "lbldari";
+            lbldari.Size = new Size(45, 24);
+            lbldari.TabIndex = 45;
+            lbldari.Text = "dari";
             // 
-            // label23
+            // lblsumrating
             // 
-            label23.AutoSize = true;
-            label23.BackColor = Color.Transparent;
-            label23.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label23.ForeColor = Color.RoyalBlue;
-            label23.Location = new Point(81, 935);
-            label23.Name = "label23";
-            label23.Size = new Size(138, 29);
-            label23.TabIndex = 46;
-            label23.Text = "100 ulasan";
+            lblsumrating.AutoSize = true;
+            lblsumrating.BackColor = Color.Transparent;
+            lblsumrating.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lblsumrating.ForeColor = Color.RoyalBlue;
+            lblsumrating.Location = new Point(81, 935);
+            lblsumrating.Name = "lblsumrating";
+            lblsumrating.Size = new Size(138, 29);
+            lblsumrating.TabIndex = 46;
+            lblsumrating.Text = "100 ulasan";
             // 
-            // panel2
+            // pnlgambar2
             // 
-            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
-            panel2.BackgroundImageLayout = ImageLayout.Stretch;
-            panel2.Location = new Point(75, 100);
-            panel2.Margin = new Padding(3, 2, 3, 2);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(762, 436);
-            panel2.TabIndex = 1;
-            panel2.Visible = false;
+            pnlgambar2.BackgroundImage = (Image)resources.GetObject("pnlgambar2.BackgroundImage");
+            pnlgambar2.BackgroundImageLayout = ImageLayout.Stretch;
+            pnlgambar2.Location = new Point(75, 102);
+            pnlgambar2.Margin = new Padding(3, 2, 3, 2);
+            pnlgambar2.Name = "pnlgambar2";
+            pnlgambar2.Size = new Size(762, 436);
+            pnlgambar2.TabIndex = 1;
+            pnlgambar2.Visible = false;
             // 
-            // textBox1
+            // tboxulasan
             // 
-            textBox1.Cursor = Cursors.IBeam;
-            textBox1.Font = new Font("Montserrat", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.SteelBlue;
-            textBox1.Location = new Point(1114, 937);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Tambahkan Ulasan...";
-            textBox1.Size = new Size(546, 33);
-            textBox1.TabIndex = 55;
+            tboxulasan.Cursor = Cursors.IBeam;
+            tboxulasan.Font = new Font("Montserrat", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            tboxulasan.ForeColor = Color.SteelBlue;
+            tboxulasan.Location = new Point(1114, 937);
+            tboxulasan.Margin = new Padding(3, 2, 3, 2);
+            tboxulasan.Name = "tboxulasan";
+            tboxulasan.PlaceholderText = "Tambahkan Ulasan...";
+            tboxulasan.Size = new Size(546, 33);
+            tboxulasan.TabIndex = 55;
             // 
-            // panel6
+            // pnlbackgroundpilihrating
             // 
-            panel6.BackColor = Color.SteelBlue;
-            panel6.Controls.Add(button1);
-            panel6.Controls.Add(label30);
-            panel6.Controls.Add(radioButton5);
-            panel6.Controls.Add(radioButton4);
-            panel6.Controls.Add(radioButton3);
-            panel6.Controls.Add(radioButton2);
-            panel6.Controls.Add(radioButton1);
-            panel6.Location = new Point(1465, 789);
-            panel6.Margin = new Padding(3, 2, 3, 2);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(290, 130);
-            panel6.TabIndex = 59;
-            panel6.Visible = false;
+            pnlbackgroundpilihrating.BackColor = Color.SteelBlue;
+            pnlbackgroundpilihrating.Controls.Add(btnkirimulasan);
+            pnlbackgroundpilihrating.Controls.Add(lblpilihrating);
+            pnlbackgroundpilihrating.Controls.Add(pilihrating1);
+            pnlbackgroundpilihrating.Controls.Add(pilihrating2);
+            pnlbackgroundpilihrating.Controls.Add(pilihrating3);
+            pnlbackgroundpilihrating.Controls.Add(pilihrating4);
+            pnlbackgroundpilihrating.Controls.Add(pilihrating5);
+            pnlbackgroundpilihrating.Location = new Point(1465, 789);
+            pnlbackgroundpilihrating.Margin = new Padding(3, 2, 3, 2);
+            pnlbackgroundpilihrating.Name = "pnlbackgroundpilihrating";
+            pnlbackgroundpilihrating.Size = new Size(290, 130);
+            pnlbackgroundpilihrating.TabIndex = 59;
+            pnlbackgroundpilihrating.Visible = false;
             // 
-            // button1
+            // btnkirimulasan
             // 
-            button1.Cursor = Cursors.Hand;
-            button1.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.Black;
-            button1.Location = new Point(187, 87);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(82, 30);
-            button1.TabIndex = 6;
-            button1.Text = "Kirim";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
+            btnkirimulasan.Cursor = Cursors.Hand;
+            btnkirimulasan.Font = new Font("Montserrat Medium", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnkirimulasan.ForeColor = Color.Black;
+            btnkirimulasan.Location = new Point(187, 87);
+            btnkirimulasan.Margin = new Padding(3, 2, 3, 2);
+            btnkirimulasan.Name = "btnkirimulasan";
+            btnkirimulasan.Size = new Size(82, 30);
+            btnkirimulasan.TabIndex = 6;
+            btnkirimulasan.Text = "Kirim";
+            btnkirimulasan.UseVisualStyleBackColor = true;
+            btnkirimulasan.Click += btnkirimulasan_Click_1;
             // 
-            // label30
+            // lblpilihrating
             // 
-            label30.AutoSize = true;
-            label30.Font = new Font("Montserrat", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label30.ForeColor = Color.White;
-            label30.Location = new Point(3, 3);
-            label30.Name = "label30";
-            label30.Size = new Size(121, 26);
-            label30.TabIndex = 5;
-            label30.Text = "Pilih rating";
+            lblpilihrating.AutoSize = true;
+            lblpilihrating.Font = new Font("Montserrat", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            lblpilihrating.ForeColor = Color.White;
+            lblpilihrating.Location = new Point(3, 3);
+            lblpilihrating.Name = "lblpilihrating";
+            lblpilihrating.Size = new Size(121, 26);
+            lblpilihrating.TabIndex = 5;
+            lblpilihrating.Text = "Pilih rating";
             // 
-            // radioButton5
+            // pilihrating1
             // 
-            radioButton5.AutoSize = true;
-            radioButton5.Cursor = Cursors.Hand;
-            radioButton5.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton5.ForeColor = Color.White;
-            radioButton5.Location = new Point(17, 40);
-            radioButton5.Margin = new Padding(3, 2, 3, 2);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(37, 30);
-            radioButton5.TabIndex = 4;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "1";
-            radioButton5.UseVisualStyleBackColor = true;
+            pilihrating1.AutoSize = true;
+            pilihrating1.Cursor = Cursors.Hand;
+            pilihrating1.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            pilihrating1.ForeColor = Color.White;
+            pilihrating1.Location = new Point(17, 40);
+            pilihrating1.Margin = new Padding(3, 2, 3, 2);
+            pilihrating1.Name = "pilihrating1";
+            pilihrating1.Size = new Size(37, 30);
+            pilihrating1.TabIndex = 4;
+            pilihrating1.TabStop = true;
+            pilihrating1.Text = "1";
+            pilihrating1.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // pilihrating2
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Cursor = Cursors.Hand;
-            radioButton4.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton4.ForeColor = Color.White;
-            radioButton4.Location = new Point(70, 40);
-            radioButton4.Margin = new Padding(3, 2, 3, 2);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(41, 30);
-            radioButton4.TabIndex = 3;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "2";
-            radioButton4.UseVisualStyleBackColor = true;
+            pilihrating2.AutoSize = true;
+            pilihrating2.Cursor = Cursors.Hand;
+            pilihrating2.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            pilihrating2.ForeColor = Color.White;
+            pilihrating2.Location = new Point(70, 40);
+            pilihrating2.Margin = new Padding(3, 2, 3, 2);
+            pilihrating2.Name = "pilihrating2";
+            pilihrating2.Size = new Size(41, 30);
+            pilihrating2.TabIndex = 3;
+            pilihrating2.TabStop = true;
+            pilihrating2.Text = "2";
+            pilihrating2.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // pilihrating3
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Cursor = Cursors.Hand;
-            radioButton3.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton3.ForeColor = Color.White;
-            radioButton3.Location = new Point(131, 41);
-            radioButton3.Margin = new Padding(3, 2, 3, 2);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(41, 30);
-            radioButton3.TabIndex = 2;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "3";
-            radioButton3.UseVisualStyleBackColor = true;
+            pilihrating3.AutoSize = true;
+            pilihrating3.Cursor = Cursors.Hand;
+            pilihrating3.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            pilihrating3.ForeColor = Color.White;
+            pilihrating3.Location = new Point(131, 41);
+            pilihrating3.Margin = new Padding(3, 2, 3, 2);
+            pilihrating3.Name = "pilihrating3";
+            pilihrating3.Size = new Size(41, 30);
+            pilihrating3.TabIndex = 2;
+            pilihrating3.TabStop = true;
+            pilihrating3.Text = "3";
+            pilihrating3.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // pilihrating4
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Cursor = Cursors.Hand;
-            radioButton2.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton2.ForeColor = Color.White;
-            radioButton2.Location = new Point(186, 41);
-            radioButton2.Margin = new Padding(3, 2, 3, 2);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(43, 30);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "4";
-            radioButton2.UseVisualStyleBackColor = true;
+            pilihrating4.AutoSize = true;
+            pilihrating4.Cursor = Cursors.Hand;
+            pilihrating4.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            pilihrating4.ForeColor = Color.White;
+            pilihrating4.Location = new Point(186, 41);
+            pilihrating4.Margin = new Padding(3, 2, 3, 2);
+            pilihrating4.Name = "pilihrating4";
+            pilihrating4.Size = new Size(43, 30);
+            pilihrating4.TabIndex = 1;
+            pilihrating4.TabStop = true;
+            pilihrating4.Text = "4";
+            pilihrating4.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // pilihrating5
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Cursor = Cursors.Hand;
-            radioButton1.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton1.ForeColor = Color.White;
-            radioButton1.Location = new Point(246, 41);
-            radioButton1.Margin = new Padding(3, 2, 3, 2);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(41, 30);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "5";
-            radioButton1.UseVisualStyleBackColor = true;
+            pilihrating5.AutoSize = true;
+            pilihrating5.Cursor = Cursors.Hand;
+            pilihrating5.Font = new Font("Montserrat", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            pilihrating5.ForeColor = Color.White;
+            pilihrating5.Location = new Point(246, 41);
+            pilihrating5.Margin = new Padding(3, 2, 3, 2);
+            pilihrating5.Name = "pilihrating5";
+            pilihrating5.Size = new Size(41, 30);
+            pilihrating5.TabIndex = 0;
+            pilihrating5.TabStop = true;
+            pilihrating5.Text = "5";
+            pilihrating5.UseVisualStyleBackColor = true;
             // 
-            // flowLayoutPanel2
+            // flp
             // 
-            flowLayoutPanel2.AutoScroll = true;
-            flowLayoutPanel2.BackColor = Color.Transparent;
-            flowLayoutPanel2.Controls.Add(panel15);
-            flowLayoutPanel2.Controls.Add(panel12);
-            flowLayoutPanel2.Controls.Add(panel13);
-            flowLayoutPanel2.Controls.Add(panel4);
-            flowLayoutPanel2.Controls.Add(panel7);
-            flowLayoutPanel2.Controls.Add(panel8);
-            flowLayoutPanel2.Controls.Add(panel9);
-            flowLayoutPanel2.Location = new Point(1029, 254);
-            flowLayoutPanel2.Margin = new Padding(3, 2, 3, 2);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(783, 630);
-            flowLayoutPanel2.TabIndex = 62;
+            flp.AutoScroll = true;
+            flp.BackColor = Color.Transparent;
+            flp.Controls.Add(pnlulasan1);
+            flp.Controls.Add(pnlulasan2);
+            flp.Controls.Add(pnlulasan3);
+            flp.Controls.Add(pnlulasan4);
+            flp.Controls.Add(pnlulasan5);
+            flp.Controls.Add(pnlulasan6);
+            flp.Controls.Add(pnlulasan7);
+            flp.Location = new Point(1029, 254);
+            flp.Margin = new Padding(3, 2, 3, 2);
+            flp.Name = "flp";
+            flp.Size = new Size(783, 630);
+            flp.TabIndex = 62;
             // 
-            // panel15
+            // pnlulasan1
             // 
-            panel15.Controls.Add(tanggal1);
-            panel15.Controls.Add(rating1);
-            panel15.Controls.Add(user1);
-            panel15.Controls.Add(isi_ulasan1);
-            panel15.Controls.Add(bgulasan1);
-            panel15.Location = new Point(3, 2);
-            panel15.Margin = new Padding(3, 2, 3, 2);
-            panel15.Name = "panel15";
-            panel15.Size = new Size(760, 155);
-            panel15.TabIndex = 2;
+            pnlulasan1.Controls.Add(tanggal1);
+            pnlulasan1.Controls.Add(rating1);
+            pnlulasan1.Controls.Add(user1);
+            pnlulasan1.Controls.Add(isi_ulasan1);
+            pnlulasan1.Controls.Add(bgulasan1);
+            pnlulasan1.Location = new Point(3, 2);
+            pnlulasan1.Margin = new Padding(3, 2, 3, 2);
+            pnlulasan1.Name = "pnlulasan1";
+            pnlulasan1.Size = new Size(760, 155);
+            pnlulasan1.TabIndex = 2;
             // 
             // tanggal1
             // 
@@ -485,6 +489,7 @@
             // bgulasan1
             // 
             bgulasan1.BackgroundImage = (Image)resources.GetObject("bgulasan1.BackgroundImage");
+            bgulasan1.BackgroundImageLayout = ImageLayout.Stretch;
             bgulasan1.Location = new Point(0, 3);
             bgulasan1.Name = "bgulasan1";
             bgulasan1.Size = new Size(757, 149);
@@ -492,18 +497,18 @@
             bgulasan1.TabStop = false;
             bgulasan1.Visible = false;
             // 
-            // panel12
+            // pnlulasan2
             // 
-            panel12.Controls.Add(tanggal2);
-            panel12.Controls.Add(rating2);
-            panel12.Controls.Add(user2);
-            panel12.Controls.Add(isi_ulasan2);
-            panel12.Controls.Add(bgulasan2);
-            panel12.Location = new Point(3, 161);
-            panel12.Margin = new Padding(3, 2, 3, 2);
-            panel12.Name = "panel12";
-            panel12.Size = new Size(760, 155);
-            panel12.TabIndex = 0;
+            pnlulasan2.Controls.Add(tanggal2);
+            pnlulasan2.Controls.Add(rating2);
+            pnlulasan2.Controls.Add(user2);
+            pnlulasan2.Controls.Add(isi_ulasan2);
+            pnlulasan2.Controls.Add(bgulasan2);
+            pnlulasan2.Location = new Point(3, 161);
+            pnlulasan2.Margin = new Padding(3, 2, 3, 2);
+            pnlulasan2.Name = "pnlulasan2";
+            pnlulasan2.Size = new Size(760, 155);
+            pnlulasan2.TabIndex = 0;
             // 
             // tanggal2
             // 
@@ -557,6 +562,7 @@
             // bgulasan2
             // 
             bgulasan2.BackgroundImage = (Image)resources.GetObject("bgulasan2.BackgroundImage");
+            bgulasan2.BackgroundImageLayout = ImageLayout.Stretch;
             bgulasan2.Location = new Point(0, 3);
             bgulasan2.Name = "bgulasan2";
             bgulasan2.Size = new Size(757, 149);
@@ -564,18 +570,18 @@
             bgulasan2.TabStop = false;
             bgulasan2.Visible = false;
             // 
-            // panel13
+            // pnlulasan3
             // 
-            panel13.Controls.Add(tanggal3);
-            panel13.Controls.Add(rating3);
-            panel13.Controls.Add(user3);
-            panel13.Controls.Add(isi_ulasan3);
-            panel13.Controls.Add(bgulasan3);
-            panel13.Location = new Point(3, 320);
-            panel13.Margin = new Padding(3, 2, 3, 2);
-            panel13.Name = "panel13";
-            panel13.Size = new Size(760, 155);
-            panel13.TabIndex = 1;
+            pnlulasan3.Controls.Add(tanggal3);
+            pnlulasan3.Controls.Add(rating3);
+            pnlulasan3.Controls.Add(user3);
+            pnlulasan3.Controls.Add(isi_ulasan3);
+            pnlulasan3.Controls.Add(bgulasan3);
+            pnlulasan3.Location = new Point(3, 320);
+            pnlulasan3.Margin = new Padding(3, 2, 3, 2);
+            pnlulasan3.Name = "pnlulasan3";
+            pnlulasan3.Size = new Size(760, 155);
+            pnlulasan3.TabIndex = 1;
             // 
             // tanggal3
             // 
@@ -629,6 +635,7 @@
             // bgulasan3
             // 
             bgulasan3.BackgroundImage = (Image)resources.GetObject("bgulasan3.BackgroundImage");
+            bgulasan3.BackgroundImageLayout = ImageLayout.Stretch;
             bgulasan3.Location = new Point(1, 1);
             bgulasan3.Name = "bgulasan3";
             bgulasan3.Size = new Size(757, 149);
@@ -636,18 +643,18 @@
             bgulasan3.TabStop = false;
             bgulasan3.Visible = false;
             // 
-            // panel4
+            // pnlulasan4
             // 
-            panel4.Controls.Add(tanggal4);
-            panel4.Controls.Add(rating4);
-            panel4.Controls.Add(user4);
-            panel4.Controls.Add(isi_ulasan4);
-            panel4.Controls.Add(bgulasan4);
-            panel4.Location = new Point(3, 479);
-            panel4.Margin = new Padding(3, 2, 3, 2);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(760, 155);
-            panel4.TabIndex = 3;
+            pnlulasan4.Controls.Add(tanggal4);
+            pnlulasan4.Controls.Add(rating4);
+            pnlulasan4.Controls.Add(user4);
+            pnlulasan4.Controls.Add(isi_ulasan4);
+            pnlulasan4.Controls.Add(bgulasan4);
+            pnlulasan4.Location = new Point(3, 479);
+            pnlulasan4.Margin = new Padding(3, 2, 3, 2);
+            pnlulasan4.Name = "pnlulasan4";
+            pnlulasan4.Size = new Size(760, 155);
+            pnlulasan4.TabIndex = 3;
             // 
             // tanggal4
             // 
@@ -701,6 +708,7 @@
             // bgulasan4
             // 
             bgulasan4.BackgroundImage = (Image)resources.GetObject("bgulasan4.BackgroundImage");
+            bgulasan4.BackgroundImageLayout = ImageLayout.Stretch;
             bgulasan4.Location = new Point(1, 1);
             bgulasan4.Name = "bgulasan4";
             bgulasan4.Size = new Size(757, 149);
@@ -708,18 +716,18 @@
             bgulasan4.TabStop = false;
             bgulasan4.Visible = false;
             // 
-            // panel7
+            // pnlulasan5
             // 
-            panel7.Controls.Add(tanggal5);
-            panel7.Controls.Add(rating5);
-            panel7.Controls.Add(user5);
-            panel7.Controls.Add(isi_ulasan5);
-            panel7.Controls.Add(bgulasan5);
-            panel7.Location = new Point(3, 638);
-            panel7.Margin = new Padding(3, 2, 3, 2);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(760, 155);
-            panel7.TabIndex = 4;
+            pnlulasan5.Controls.Add(tanggal5);
+            pnlulasan5.Controls.Add(rating5);
+            pnlulasan5.Controls.Add(user5);
+            pnlulasan5.Controls.Add(isi_ulasan5);
+            pnlulasan5.Controls.Add(bgulasan5);
+            pnlulasan5.Location = new Point(3, 638);
+            pnlulasan5.Margin = new Padding(3, 2, 3, 2);
+            pnlulasan5.Name = "pnlulasan5";
+            pnlulasan5.Size = new Size(760, 155);
+            pnlulasan5.TabIndex = 4;
             // 
             // tanggal5
             // 
@@ -773,6 +781,7 @@
             // bgulasan5
             // 
             bgulasan5.BackgroundImage = (Image)resources.GetObject("bgulasan5.BackgroundImage");
+            bgulasan5.BackgroundImageLayout = ImageLayout.Stretch;
             bgulasan5.Location = new Point(1, 1);
             bgulasan5.Name = "bgulasan5";
             bgulasan5.Size = new Size(757, 149);
@@ -780,18 +789,18 @@
             bgulasan5.TabStop = false;
             bgulasan5.Visible = false;
             // 
-            // panel8
+            // pnlulasan6
             // 
-            panel8.Controls.Add(tanggal6);
-            panel8.Controls.Add(rating6);
-            panel8.Controls.Add(user6);
-            panel8.Controls.Add(isi_ulasan6);
-            panel8.Controls.Add(bgulasan6);
-            panel8.Location = new Point(3, 797);
-            panel8.Margin = new Padding(3, 2, 3, 2);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(760, 155);
-            panel8.TabIndex = 5;
+            pnlulasan6.Controls.Add(tanggal6);
+            pnlulasan6.Controls.Add(rating6);
+            pnlulasan6.Controls.Add(user6);
+            pnlulasan6.Controls.Add(isi_ulasan6);
+            pnlulasan6.Controls.Add(bgulasan6);
+            pnlulasan6.Location = new Point(3, 797);
+            pnlulasan6.Margin = new Padding(3, 2, 3, 2);
+            pnlulasan6.Name = "pnlulasan6";
+            pnlulasan6.Size = new Size(760, 155);
+            pnlulasan6.TabIndex = 5;
             // 
             // tanggal6
             // 
@@ -845,6 +854,7 @@
             // bgulasan6
             // 
             bgulasan6.BackgroundImage = (Image)resources.GetObject("bgulasan6.BackgroundImage");
+            bgulasan6.BackgroundImageLayout = ImageLayout.Stretch;
             bgulasan6.Location = new Point(1, 1);
             bgulasan6.Name = "bgulasan6";
             bgulasan6.Size = new Size(757, 149);
@@ -852,18 +862,18 @@
             bgulasan6.TabStop = false;
             bgulasan6.Visible = false;
             // 
-            // panel9
+            // pnlulasan7
             // 
-            panel9.Controls.Add(tanggal7);
-            panel9.Controls.Add(rating7);
-            panel9.Controls.Add(user7);
-            panel9.Controls.Add(isi_ulasan7);
-            panel9.Controls.Add(bgulasan7);
-            panel9.Location = new Point(3, 956);
-            panel9.Margin = new Padding(3, 2, 3, 2);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(760, 155);
-            panel9.TabIndex = 6;
+            pnlulasan7.Controls.Add(tanggal7);
+            pnlulasan7.Controls.Add(rating7);
+            pnlulasan7.Controls.Add(user7);
+            pnlulasan7.Controls.Add(isi_ulasan7);
+            pnlulasan7.Controls.Add(bgulasan7);
+            pnlulasan7.Location = new Point(3, 956);
+            pnlulasan7.Margin = new Padding(3, 2, 3, 2);
+            pnlulasan7.Name = "pnlulasan7";
+            pnlulasan7.Size = new Size(760, 155);
+            pnlulasan7.TabIndex = 6;
             // 
             // tanggal7
             // 
@@ -917,6 +927,7 @@
             // bgulasan7
             // 
             bgulasan7.BackgroundImage = (Image)resources.GetObject("bgulasan7.BackgroundImage");
+            bgulasan7.BackgroundImageLayout = ImageLayout.Stretch;
             bgulasan7.Location = new Point(1, 1);
             bgulasan7.Name = "bgulasan7";
             bgulasan7.Size = new Size(757, 149);
@@ -924,70 +935,82 @@
             bgulasan7.TabStop = false;
             bgulasan7.Visible = false;
             // 
-            // label4
+            // lblavgrating
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Montserrat Medium", 45F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.ForeColor = Color.RoyalBlue;
-            label4.Location = new Point(81, 809);
-            label4.MaximumSize = new Size(0, 100);
-            label4.Name = "label4";
-            label4.Size = new Size(132, 83);
-            label4.TabIndex = 63;
-            label4.Text = "4,4";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
+            lblavgrating.AutoSize = true;
+            lblavgrating.BackColor = Color.Transparent;
+            lblavgrating.Font = new Font("Montserrat Medium", 45F, FontStyle.Bold, GraphicsUnit.Point);
+            lblavgrating.ForeColor = Color.RoyalBlue;
+            lblavgrating.Location = new Point(81, 809);
+            lblavgrating.MaximumSize = new Size(0, 100);
+            lblavgrating.Name = "lblavgrating";
+            lblavgrating.Size = new Size(132, 83);
+            lblavgrating.TabIndex = 63;
+            lblavgrating.Text = "4,4";
+            lblavgrating.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // pictureBox4
+            // pcboxbackgroundinputulasan
             // 
-            pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1066, 923);
-            pictureBox4.Margin = new Padding(3, 2, 3, 2);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(690, 64);
-            pictureBox4.TabIndex = 64;
-            pictureBox4.TabStop = false;
+            pcboxbackgroundinputulasan.BackColor = Color.Transparent;
+            pcboxbackgroundinputulasan.BackgroundImageLayout = ImageLayout.Stretch;
+            pcboxbackgroundinputulasan.Image = (Image)resources.GetObject("pcboxbackgroundinputulasan.Image");
+            pcboxbackgroundinputulasan.Location = new Point(1066, 923);
+            pcboxbackgroundinputulasan.Margin = new Padding(3, 2, 3, 2);
+            pcboxbackgroundinputulasan.Name = "pcboxbackgroundinputulasan";
+            pcboxbackgroundinputulasan.Size = new Size(690, 64);
+            pcboxbackgroundinputulasan.TabIndex = 64;
+            pcboxbackgroundinputulasan.TabStop = false;
             // 
-            // pictureBox5
+            // pcboxpensil
             // 
-            pictureBox5.BackColor = Color.Transparent;
-            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.Cursor = Cursors.Hand;
-            pictureBox5.Location = new Point(1671, 933);
-            pictureBox5.Margin = new Padding(3, 2, 3, 2);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(49, 37);
-            pictureBox5.TabIndex = 65;
-            pictureBox5.TabStop = false;
-            pictureBox5.Click += pictureBox5_Click;
+            pcboxpensil.BackColor = Color.Transparent;
+            pcboxpensil.BackgroundImage = (Image)resources.GetObject("pcboxpensil.BackgroundImage");
+            pcboxpensil.BackgroundImageLayout = ImageLayout.Stretch;
+            pcboxpensil.Cursor = Cursors.Hand;
+            pcboxpensil.Location = new Point(1671, 933);
+            pcboxpensil.Margin = new Padding(3, 2, 3, 2);
+            pcboxpensil.Name = "pcboxpensil";
+            pcboxpensil.Size = new Size(49, 37);
+            pcboxpensil.TabIndex = 65;
+            pcboxpensil.TabStop = false;
+            pcboxpensil.Click += pcboxpensil_Click;
             // 
-            // filter
+            // cboxfilter
             // 
-            filter.BackColor = Color.SteelBlue;
-            filter.Font = new Font("Montserrat", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            filter.ForeColor = Color.White;
-            filter.FormattingEnabled = true;
-            filter.Location = new Point(1315, 196);
-            filter.Margin = new Padding(5, 4, 5, 4);
-            filter.Name = "filter";
-            filter.Size = new Size(405, 30);
-            filter.TabIndex = 67;
-            filter.Text = "  Pilih opsi filter";
+            cboxfilter.BackColor = Color.SteelBlue;
+            cboxfilter.Font = new Font("Montserrat", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            cboxfilter.ForeColor = Color.White;
+            cboxfilter.FormattingEnabled = true;
+            cboxfilter.Location = new Point(1315, 196);
+            cboxfilter.Margin = new Padding(5, 4, 5, 4);
+            cboxfilter.Name = "cboxfilter";
+            cboxfilter.Size = new Size(405, 30);
+            cboxfilter.TabIndex = 67;
             // 
-            // btnFilter
+            // btnfiltersearch
             // 
-            btnFilter.BackColor = SystemColors.GradientActiveCaption;
-            btnFilter.Cursor = Cursors.Hand;
-            btnFilter.Font = new Font("Montserrat", 8.999999F, FontStyle.Regular, GraphicsUnit.Point);
-            btnFilter.ForeColor = SystemColors.ActiveCaptionText;
-            btnFilter.Location = new Point(1735, 196);
-            btnFilter.Name = "btnFilter";
-            btnFilter.Size = new Size(70, 30);
-            btnFilter.TabIndex = 68;
-            btnFilter.Text = "Search";
-            btnFilter.UseVisualStyleBackColor = false;
-            btnFilter.Click += btnFilter_Click;
+            btnfiltersearch.BackColor = SystemColors.GradientActiveCaption;
+            btnfiltersearch.Cursor = Cursors.Hand;
+            btnfiltersearch.Font = new Font("Montserrat", 8.999999F, FontStyle.Regular, GraphicsUnit.Point);
+            btnfiltersearch.ForeColor = SystemColors.ActiveCaptionText;
+            btnfiltersearch.Location = new Point(1735, 196);
+            btnfiltersearch.Name = "btnfiltersearch";
+            btnfiltersearch.Size = new Size(70, 30);
+            btnfiltersearch.TabIndex = 68;
+            btnfiltersearch.Text = "Search";
+            btnfiltersearch.UseVisualStyleBackColor = false;
+            btnfiltersearch.Click += btnfiltersearch_Click;
+            // 
+            // pbox
+            // 
+            pbox.BackColor = Color.Transparent;
+            pbox.BackgroundImage = (Image)resources.GetObject("pbox.BackgroundImage");
+            pbox.BackgroundImageLayout = ImageLayout.Stretch;
+            pbox.Location = new Point(1021, 251);
+            pbox.Name = "pbox";
+            pbox.Size = new Size(801, 640);
+            pbox.TabIndex = 70;
+            pbox.TabStop = false;
             // 
             // Form1
             // 
@@ -995,100 +1018,103 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Slide_16_9___1;
             ClientSize = new Size(1904, 1041);
-            Controls.Add(btnFilter);
-            Controls.Add(filter);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
-            Controls.Add(label20);
-            Controls.Add(panel6);
-            Controls.Add(pictureBox5);
-            Controls.Add(textBox1);
-            Controls.Add(pictureBox4);
-            Controls.Add(label4);
-            Controls.Add(flowLayoutPanel2);
-            Controls.Add(label23);
-            Controls.Add(label22);
-            Controls.Add(panel5);
-            Controls.Add(panel3);
-            Controls.Add(label3);
-            Controls.Add(pictureBox2);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(pictureBox1);
-            Controls.Add(pictureBox3);
+            Controls.Add(pnlgambar2);
+            Controls.Add(btnfiltersearch);
+            Controls.Add(cboxfilter);
+            Controls.Add(pnlgambar1);
+            Controls.Add(lblrating);
+            Controls.Add(pnlbackgroundpilihrating);
+            Controls.Add(pcboxpensil);
+            Controls.Add(tboxulasan);
+            Controls.Add(pcboxbackgroundinputulasan);
+            Controls.Add(lblavgrating);
+            Controls.Add(flp);
+            Controls.Add(lblsumrating);
+            Controls.Add(lbldari);
+            Controls.Add(pnlpemisahjudululasandenganrating);
+            Controls.Add(pnlpemisahjudululasanpengunjungdenganisiulasan);
+            Controls.Add(lbljudululasanpengunjung);
+            Controls.Add(pcboxpemisahkanankiri);
+            Controls.Add(lblsubjudululasan);
+            Controls.Add(lbljudululasan);
+            Controls.Add(pcboxprevious);
+            Controls.Add(pcboxnext);
+            Controls.Add(pbox);
             DoubleBuffered = true;
             Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = " ";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
-            flowLayoutPanel2.ResumeLayout(false);
-            panel15.ResumeLayout(false);
-            panel15.PerformLayout();
+            Resize += Form1_Resize;
+            ((System.ComponentModel.ISupportInitialize)pcboxnext).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxprevious).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxpemisahkanankiri).EndInit();
+            pnlbackgroundpilihrating.ResumeLayout(false);
+            pnlbackgroundpilihrating.PerformLayout();
+            flp.ResumeLayout(false);
+            pnlulasan1.ResumeLayout(false);
+            pnlulasan1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan1).EndInit();
-            panel12.ResumeLayout(false);
-            panel12.PerformLayout();
+            pnlulasan2.ResumeLayout(false);
+            pnlulasan2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan2).EndInit();
-            panel13.ResumeLayout(false);
-            panel13.PerformLayout();
+            pnlulasan3.ResumeLayout(false);
+            pnlulasan3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan3).EndInit();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
+            pnlulasan4.ResumeLayout(false);
+            pnlulasan4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan4).EndInit();
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
+            pnlulasan5.ResumeLayout(false);
+            pnlulasan5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan5).EndInit();
-            panel8.ResumeLayout(false);
-            panel8.PerformLayout();
+            pnlulasan6.ResumeLayout(false);
+            pnlulasan6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan6).EndInit();
-            panel9.ResumeLayout(false);
-            panel9.PerformLayout();
+            pnlulasan7.ResumeLayout(false);
+            pnlulasan7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)bgulasan7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxbackgroundinputulasan).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcboxpensil).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Panel panel1;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox3;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private PictureBox pictureBox2;
-        private Panel panel3;
-        private Panel panel5;
-        private Label label20;
-        private Label label22;
-        private Label label23;
-        private Panel panel2;
-        private TextBox textBox1;
-        private Panel panel6;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private RadioButton radioButton5;
-        private RadioButton radioButton4;
-        private RadioButton radioButton3;
-        private Label label30;
+        private Panel pnlgambar1;
+        private PictureBox pcboxprevious;
+        private PictureBox pcboxnext;
+        private Label lbljudululasan;
+        private Label lblsubjudululasan;
+        private Label lbljudululasanpengunjung;
+        private PictureBox pcboxpemisahkanankiri;
+        private Panel pnlpemisahjudululasanpengunjungdenganisiulasan;
+        private Panel pnlpemisahjudululasandenganrating;
+        private Label lblrating;
+        private Label lbldari;
+        private Label lblsumrating;
+        private Panel pnlgambar2;
+        private TextBox tboxulasan;
+        private Panel pnlbackgroundpilihrating;
+        private RadioButton pilihrating4;
+        private RadioButton pilihrating5;
+        private RadioButton pilihrating1;
+        private RadioButton pilihrating2;
+        private RadioButton pilihrating3;
+        private Label lblpilihrating;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private Button button1;
-        private FlowLayoutPanel flowLayoutPanel2;
-        private Panel panel15;
-        private Panel panel12;
-        private Panel panel13;
+        private Button btnkirimulasan;
+        private FlowLayoutPanel flp;
+        private Panel pnlulasan1;
+        private Panel pnlulasan2;
+        private Panel pnlulasan3;
         private Label isi_ulasan1;
         private Label isi_ulasan2;
         private Label isi_ulasan3;
-        private Label label4;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
+        private Label lblavgrating;
+        private PictureBox pcboxbackgroundinputulasan;
+        private PictureBox pcboxpensil;
         private Label user1;
         private Label user2;
         private Label user3;
@@ -1101,32 +1127,33 @@
         private PictureBox bgulasan1;
         private PictureBox bgulasan2;
         private PictureBox bgulasan3;
-        private ComboBox filter;
-        private Panel panel4;
+        private ComboBox cboxfilter;
+        private Panel pnlulasan4;
         private Label tanggal4;
         private Label rating4;
         private Label user4;
         private Label isi_ulasan4;
         private PictureBox bgulasan4;
-        private Panel panel7;
+        private Panel pnlulasan5;
         private Label tanggal5;
         private Label rating5;
         private Label user5;
         private Label isi_ulasan5;
         private PictureBox bgulasan5;
-        private Panel panel8;
+        private Panel pnlulasan6;
         private Label tanggal6;
         private Label rating6;
         private Label user6;
         private Label isi_ulasan6;
         private PictureBox bgulasan6;
-        private Panel panel9;
+        private Panel pnlulasan7;
         private Label tanggal7;
         private Label rating7;
         private Label user7;
         private Label isi_ulasan7;
         private PictureBox bgulasan7;
         private Button button2;
-        private Button btnFilter;
+        private Button btnfiltersearch;
+        private PictureBox pbox;
     }
 }
